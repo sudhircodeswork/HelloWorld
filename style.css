@@ -1,0 +1,19 @@
+.FullScreen {
+    background-color:Blue;
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;  
+}
+.Register {
+color: white;
+text-align:center;
+}
+
+.MyBottom {    
+    position:absolute;
+    left: 50%;
+    top: 90%;
+	
+}
