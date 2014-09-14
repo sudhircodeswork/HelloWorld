@@ -30,7 +30,7 @@
         $(function () {
             router.start();
         });
-		navigator.notification.beep(2);
+		//navigator.notification.beep(2);
 		
     });
     function loadSingIn() {
@@ -39,13 +39,13 @@
         mainLayout.showIn("#mainContent", signInView);
     }
     function Authenticated() {
-        vibrate();
+       // vibrate();
         var AuthenticatedView = new kendo.View("Authenticated-temp");
         mainLayout.showIn("#mainContent", AuthenticatedView);
 		
     }
 	 function ShowHome() {
-		navigator.notification.beep(5);
+		//navigator.notification.beep(5);
         mainLayout.showIn("#mainContent", registerView);
     }
 </script>
