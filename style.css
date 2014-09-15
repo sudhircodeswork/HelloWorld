@@ -11,9 +11,9 @@ color: white;
 text-align:center;
 }
 
-.MyBottom {    
-    position:absolute;
-    left: 50%;
-    top: 90%;
-	
+.StickyFooter {  
+	position:absolute;
+    width: 99%;
+    top: 95%;	
+	background-color: Black;color: White;	
 }
