@@ -1,8 +1,8 @@
 {
-  "ProjectGuid": "163ec050-1adf-4897-b5bf-e6b896dafa1b",
+  "ProjectGuid": "1d805696-d4ad-41be-bb5a-521558346da1",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "AppIdentifier": "com.telerik.airlinessampleapp",
-  "ProjectName": "airlines sample app",
+  "AppIdentifier": "com.telerik.sampleevents",
+  "ProjectName": "sample-events",
   "IsRunnable": "true",
   "AndroidPermissions": [
     "android.permission.CAMERA",
@@ -21,22 +21,23 @@
     "android.permission.ACCESS_NETWORK_STATE"
   ],
   "DeviceOrientations": [
-    "Portrait"
+    "Portrait",
+    "Landscape"
   ],
   "iOSStatusBarStyle": "Default",
   "BundleVersion": "1.0",
-  "AndroidVersionCode": "1",
-  "AndroidHardwareAcceleration": "true",
   "iOSDisplayName": "",
   "iOSDeviceFamily": [
     "1",
     "2"
   ],
+  "AndroidVersionCode": "1",
+  "AndroidHardwareAcceleration": "false",
   "iOSBackgroundMode": [],
   "FrameworkVersion": "3.5.0",
   "CorePlugins": [
-    "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar"
+    "org.apache.cordova.battery-status",
+    "org.apache.cordova.splashscreen"
   ],
   "DisplayName": "",
   "WP8SupportedResolutions": [
@@ -44,9 +45,7 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "WP8ProductID": "{163ec050-1adf-4897-b5bf-e6b896dafa1b}",
-  "WP8PublisherID": "{143367e4-3ee9-448a-b8d2-b5e1e126c03c}",
   "Author": "",
-  "Description": "airlines sample app",
+  "Description": "sample-events",
   "Framework": "Cordova"
 }
